@@ -1,0 +1,24 @@
+{
+    "type": "GenericCrafter",
+    "name": "Trade Terminal 1",
+    "description": "Trades Copper for Lead",
+    "size": 3,
+    "outputItem": {"item": "lead", "amount": 5},
+    "hasPower": true,
+    "hasLiquids": false,
+    "craftTime": 50,
+    "consumes": {
+        "power": 0.5,
+        "items": {
+            "items": [
+                { "item": "copper", "amount": 10 }
+            ],
+            "optional": false
+        }
+    },
+    "requirements":[
+        { "item": "copper", "amount": 1000 }
+    ],
+    "category": "effect",
+    "research": "launch-pad"
+}

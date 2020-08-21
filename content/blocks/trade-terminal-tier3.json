@@ -1,0 +1,24 @@
+{
+    "type": "GenericCrafter",
+    "name": "Trade Terminal 3",
+    "description": "Trades Titanium for Thorium",
+    "size": 3,
+    "outputItem": {"item": "thorium", "amount": 5},
+    "hasPower": true,
+    "hasLiquids": false,
+    "craftTime": 50,
+    "consumes": {
+        "power": 0.5,
+        "items": {
+            "items": [
+                { "item": "titanium", "amount": 10 }
+            ],
+            "optional": false
+        }
+    },
+    "requirements":[
+        { "item": "titanium", "amount": 1000 }
+    ],
+    "category": "effect",
+    "research": "launch-pad"
+}
