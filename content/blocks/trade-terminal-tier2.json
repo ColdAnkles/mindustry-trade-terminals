@@ -20,5 +20,10 @@
         { "item": "lead", "amount": 1000 }
     ],
     "category": "effect",
-    "research": "launch-pad"
+    "research": {
+		parent: trade-terminal-tier1
+		requirements: [
+			lead/500
+		]
+	}
 }

@@ -20,5 +20,10 @@
         { "item": "copper", "amount": 1000 }
     ],
     "category": "effect",
-    "research": "launch-pad"
+    "research": {
+		parent: launch-pad
+		requirements: [
+			copper/500
+		]
+	}
 }
