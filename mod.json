@@ -1,6 +1,8 @@
-{
-  "name": "Trade Terminals",
-  "author": "Cold_Ankles",
-  "description": "A simple mod allowing trading one metal for the next.",
-  "version": 1.0
-}
+name: "Trade Terminals"
+displayName: "Trade Terminals"
+author: "ColdAnkles"
+description: "A simple mod allowing trading one metal for the next"
+version: "2.0"
+minGameVersion: "120.4"
+dependencies: [ ]
+hidden: false
