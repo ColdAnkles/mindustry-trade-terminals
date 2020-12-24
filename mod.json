@@ -3,6 +3,6 @@ displayName: "Trade Terminals"
 author: "ColdAnkles"
 description: "A simple mod allowing trading one metal for the next"
 version: "2.0"
-minGameVersion: "120.4"
+minGameVersion: "105"
 dependencies: [ ]
 hidden: false
